@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contacto {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+ background-color: #b37400;
+  }
+
+.contactanos, .contacto{
+    display: inline-block;
+    width: 45%;
+    margin-left: 30px;
+}
